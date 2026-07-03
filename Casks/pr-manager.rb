@@ -1,11 +1,11 @@
 cask "pr-manager" do
   arch arm: "arm64", intel: "amd64"
 
-  version "0.0.16"
-  sha256 arm:   "3feb1b06bcbad09c5f17b0bdbdcb25a4855f5a9003dba4e93e8d41a370cdec15",
-         intel: "5e4f8181425b2c80cc1d807db213472240843297821f32f540a718990b70437f"
+  version "0.0.17"
+  sha256 arm:   "a48eb931a6fc422bfcf0c0cc5b32d435d67de1ae0ea0234e01cce8633ac8144e",
+         intel: "746bf0a619dc50f5093532d50a0defa083ba0049d666278b15dc932e022d738d"
 
-  url "https://github.com/yanislavm/pr-manager-release/releases/download/v0.0.16/pr-manager-darwin-#{arch}.tar.gz"
+  url "https://github.com/yanislavm/pr-manager-release/releases/download/v0.0.17/pr-manager-darwin-#{arch}.tar.gz"
   name "PR Manager"
   desc "Terminal UI for monitoring GitHub pull requests"
   homepage "https://github.com/yanislavm/pr-manager"
